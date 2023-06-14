@@ -1,3 +1,52 @@
 body {
   background: blanchedalmond;
 }
+* {
+  border: 1px solid violet;
+}
+
+img {
+  width: 100px;
+}
+
+.container{
+  width: 100%;
+}
+
+.a {
+  min-height: 20vw;
+  margin: 1em 1em 1em 1em;
+}
+
+.b {
+   min-height: 60vw;
+   margin: 1em 1em 1em 1em;
+   
+}
+
+.c {
+  min-height: 20vw;
+  margin: 1em 1em 1em 1em;
+  
+}
+
+@media (min-width:1000px) {
+  .a {
+    width: 99%;
+  }
+}
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    flex-wrap: wrap;
+  } 
+
+  .b {
+    width: 65%;
+  }
+
+  .c {
+    min-width: 25vw;
+  }
